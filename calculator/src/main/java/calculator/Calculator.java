@@ -19,5 +19,8 @@ public class Calculator {
 			throw new IllegalArgumentException();   
 		return result; 
 		}
+	public int cube(int num){
+		return num*num*num;
+	}
 
 }

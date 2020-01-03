@@ -33,7 +33,7 @@ public class CalculatorTest {
 	}
 	@Test  
 	public void testCube(){  
-		assertEquals(37,calculator.cube(3));  
+		assertEquals(27,calculator.cube(3));  
 	}
 	@AfterClass  
     public static void tearDownAfterClass() throws Exception {  
